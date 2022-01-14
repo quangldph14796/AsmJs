@@ -1,8 +1,11 @@
 import data from "../data";
-
+import header from "../compaments/header";
 const news = {
   render() {
     return /* html */ `
+        <div class=" mx-auto">
+          ${header.render()}
+        </div>
         <h2 class="text-2xl text-blue-900 my-4 uppercase">Tin tức học lập</h2>
         <div class="news">
             <div class="grid grid-cols-3 gap-8">
